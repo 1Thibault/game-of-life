@@ -8,16 +8,10 @@
              classpathref="jmeter.lib.path"/>
 
     <target name="jmeter">
-        <jmeter jmeterhome="${basedir}/tools/jmeter" testplan="${basedir}/src/test/jmeter/gameoflife.jmx"
+        <jmeter jmeterhome="${basedir}/tools/jmeter" testplan="${basedir}/src/test/jmeter/gameoflife-100-users.jmx"
                 resultlog="${basedir}/target/jmeter-results-100-users.jtl">
             <jvmarg value="-Xmx512m"/>
             <property name="request.threads" value="10"/>
-            <property name="request.loop" value="10"/>
-        </jmeter>
-        <jmeter jmeterhome="${basedir}/tools/jmeter" testplan="${basedir}/src/test/jmeter/gameoflife.jmx"
-                resultlog="${basedir}/target/jmeter-results-200-users.jtl">
-            <jvmarg value="-Xmx512m"/>
-            <property name="request.threads" value="20"/>
             <property name="request.loop" value="10"/>
         </jmeter>
 
