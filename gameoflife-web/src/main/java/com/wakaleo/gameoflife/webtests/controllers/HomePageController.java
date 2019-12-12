@@ -23,12 +23,4 @@ public class HomePageController {
     public ModelAndView home() {
         return new ModelAndView("home");
     }
-
-    @RequestMapping("/infinityloop")
-    public String loop() {
-        while(true) {
-            System.out.println("boucle infinie !");
-        }
-        return("boucle infinie !")
-    }
 }
