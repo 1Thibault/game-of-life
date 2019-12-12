@@ -27,11 +27,6 @@ public class GameController {
 	// Clicking the "New Game" button on the main page loads the cell seletion page
     @RequestMapping("/new")
     public ModelAndView newGame() {
-
-
- getRandomGenerator().nextInt(max / 4);
-
-
         ModelAndView mav = new ModelAndView("game/edit");
         Universe universe = new Universe();
         mav.addObject("universe", universe);
