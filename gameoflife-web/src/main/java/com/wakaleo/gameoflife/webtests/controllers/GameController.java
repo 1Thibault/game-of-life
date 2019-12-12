@@ -45,11 +45,11 @@ public class GameController {
 
         Universe universe = universeInstanciatedFromClickedCells(rows, columns, request);
         thinkABit(200); // Pause for random time
-	while(true) {
-            System.out.println("DDDIIIIIIIEEEEE");
-        }
         return showGridScreen(universe);
     }
+
+	public void blabla() {
+	}
 
 	// Clicking the "Next Generation" button loads the next step of the game
     @RequestMapping("/next")
