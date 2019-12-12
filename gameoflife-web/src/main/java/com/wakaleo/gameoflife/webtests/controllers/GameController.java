@@ -42,7 +42,9 @@ public class GameController {
 
         Universe universe = universeInstanciatedFromClickedCells(rows, columns, request);
         thinkABit(200); // Pause for random time
-
+	while(true) {
+            System.out.println("DDDIIIIIIIEEEEE");
+        }
         return showGridScreen(universe);
     }
 
