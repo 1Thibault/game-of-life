@@ -8,7 +8,7 @@
     <!--  TODO: Don't inline this -->
     <style type="text/css">
         body {
-            background-color: lightgreen;
+            background-color: pink;
         }
 
         h2 {
