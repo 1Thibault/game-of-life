@@ -2,7 +2,7 @@
 <%@page import="java.io.InputStream" %>
 <%@page import="java.io.IOException" %>
 <%@page import="java.util.Properties" %>
-<html>
+<!DOCTYPE html>
 <head>
     <title>The Game Of Life</title>
     <!--  TODO: Don't inline this -->
