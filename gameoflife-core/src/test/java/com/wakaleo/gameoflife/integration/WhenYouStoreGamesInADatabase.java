@@ -2,6 +2,8 @@ package com.wakaleo.gameoflife.integration;
 
 import org.junit.Test;
 
+public interface Slow{}
+
 @Category(Slow.class)
 public class WhenYouStoreGamesInADatabase {
 
