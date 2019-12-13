@@ -7,6 +7,10 @@
     <title>The Game Of Life</title>
     <!--  TODO: Don't inline this -->
     <style type="text/css">
+        body {
+            background-color: lightgreen;
+        }
+
         h2 {
             color: blue;
             font-family: sans-serif;
